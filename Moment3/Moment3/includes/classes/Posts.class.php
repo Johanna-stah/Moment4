@@ -4,7 +4,7 @@
     
     // Constructor
     function __construct() {
-        $this->db = new mysqli("mysql25.unoeuro.com", "johannastahlgren_se", "Hbg3xnmD6h2t", "johannastahlgren_se_db_userdb");
+        $this->db = new mysqli("root", "...", "password", "db-name");
         if($this->db->connect_errno > 0) {
             die("Fel vid anslutning: " . $this->db->connect_error);
         }
