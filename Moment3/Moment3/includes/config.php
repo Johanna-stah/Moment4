@@ -5,10 +5,10 @@ spl_autoload_register(function ($class_name){
 
 /* Database credentials. Assuming you are running MySQL
 server with default setting (user 'root' with no password) */
-define('DB_SERVER', 'mysql25.unoeuro.com');
-define('DB_USERNAME', 'johannastahlgren_se');
-define('DB_PASSWORD', 'Hbg3xnmD6h2t');
-define('DB_NAME', 'johannastahlgren_se_db_userdb');
+define('DB_SERVER', 'root');
+define('DB_USERNAME', '....');
+define('DB_PASSWORD', '-password');
+define('DB_NAME', 'write-db-name');
  
 /* Attempt to connect to MySQL database */
 $mysqli = new mysqli(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
